@@ -1,0 +1,94 @@
+
+<!DOCTYPE html>
+<html lang="da">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Kontakt Digitalt Kompas, hvis du har spørgsmål om digital sikkerhed og privatliv på nettet.">
+    <title>Kontakt | Digitalt Kompas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h2>Digitalt Kompas</h2>
+
+        <nav aria-label="Hovednavigation">
+            <a href="index.html">Forside</a>
+            <a href="privatliv.html">Beskyt dit privatliv</a>
+            <a href="kontakt.html" aria-current="page">Kontakt</a>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Kontakt os</h1>
+
+        <p>
+            Har du spørgsmål om digital sikkerhed eller dit
+            privatliv på nettet? Du er altid velkommen til
+            at kontakte os. Udfyld formularen nedenfor,
+            så vender vi tilbage hurtigst muligt.
+        </p>
+
+        <form class="kontaktformular" aria-label="Kontaktformular">
+
+            <div class="formularfelt">
+                <label for="navn">Navn</label>
+                <input
+                    type="text"
+                    id="navn"
+                    name="navn"
+                    placeholder="Indtast dit navn"
+                    autocomplete="name"
+                    required>
+            </div>
+
+            <div class="formularfelt">
+                <label for="email">E-mail</label>
+                <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    placeholder="Indtast din e-mail"
+                    autocomplete="email"
+                    required>
+            </div>
+
+            <div class="formularfelt">
+                <label for="besked">Besked</label>
+                <textarea
+                    id="besked"
+                    name="besked"
+                    rows="6"
+                    placeholder="Skriv din besked her..."
+                    required></textarea>
+            </div>
+
+            <button type="button" class="knap">
+                Send besked
+            </button>
+
+            <p class="privatlivstekst">
+                Dine oplysninger bruges kun til at besvare din
+                henvendelse. Undlad at sende følsomme
+                personoplysninger.
+            </p>
+
+        </form>
+    </main>
+
+    <footer>
+        <h2>Digitalt Kompas</h2>
+        <p>Viden og gode råd til et tryggere digitalt liv</p>
+        <p>&copy; 2026 Digitalt Kompas</p>
+
+        <nav aria-label="Footer navigation">
+            <a href="index.html">Forside</a>
+            <a href="privatliv.html">Beskyt dit privatliv</a>
+            <a href="kontakt.html">Kontakt</a>
+        </nav>
+    </footer>
+
+</body>
+</html>
